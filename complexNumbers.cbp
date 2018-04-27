@@ -18,6 +18,7 @@
 					<Add option="-g" />
 					<Add directory="TComplexNumber" />
 					<Add directory="TComplexNumber_Exeption" />
+					<Add directory="TComplexNumber_Exception" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -32,6 +33,7 @@
 					<Add option="-O2" />
 					<Add directory="TComplexNumber" />
 					<Add directory="TComplexNumber_Exeption" />
+					<Add directory="TComplexNumber_Exception" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,8 +42,8 @@
 		</Build>
 		<Unit filename="TComplexNumber/TComplexNumber.cpp" />
 		<Unit filename="TComplexNumber/TComplexNumber.h" />
-		<Unit filename="TComplexNumber_Exeption/TComplexNumber_Exeption.cpp" />
-		<Unit filename="TComplexNumber_Exeption/TComplexNumber_Exeption.h" />
+		<Unit filename="TComplexNumber_Exception/TComplexNumber_Exception.cpp" />
+		<Unit filename="TComplexNumber_Exception/TComplexNumber_Exception.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

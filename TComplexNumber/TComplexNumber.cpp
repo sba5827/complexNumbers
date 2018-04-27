@@ -1,5 +1,5 @@
 #include "TComplexNumber.h"
-#include "TComplexNumber_Exeption.h"
+#include "TComplexNumber_Exception.h"
 #include<cmath>
 #include <iostream>
 
@@ -71,7 +71,7 @@ TComplexNumber TComplexNumber::operator*(const TComplexNumber& x) {
 TComplexNumber TComplexNumber::operator/(const TComplexNumber& x) {
 
     if(x.GetAbs() == 0){
-        throw TComplexNumber_Exeption("division by zero");
+        throw TComplexNumber_Exception("division by zero");
     }
 
     TComplexNumber cnReturn;
@@ -109,7 +109,7 @@ bool TComplexNumber::operator*=(const TComplexNumber& x) {
 bool TComplexNumber::operator/=(const TComplexNumber& x) {
 
     if(x.GetAbs() == 0){
-        throw TComplexNumber_Exeption("division by zero");
+        throw TComplexNumber_Exception("division by zero");
     }
 
     this->SetAbs(this->GetAbs() / x.GetAbs());
