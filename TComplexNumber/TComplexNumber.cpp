@@ -20,23 +20,6 @@ inline double getPhase_if_aReal_is_0(const double aImg){
 
 }
 
-TComplexNumber::TComplexNumber(const double aReal, const double aImg):fReal(aReal),fImg(aImg),fAbs(sqrt(pow(aReal,2)*pow(aImg,2))),fPhase((aReal == 0)?(0):(atan(aImg/aReal))) {
-
-    if(aReal == 0){
-        SetPhase_unsave(getPhase_if_aReal_is_0(aImg));
-    }
-
-}
-
-TComplexNumber::TComplexNumber(const TComplexNumber &aCN):fReal(aCN.GetReal()),fImg(aCN.GetImg()),fAbs(aCN.GetAbs()),fPhase(aCN.GetPhase_rad()){
-
-}
-TComplexNumber::TComplexNumber(const char* aStream){}
-
-TComplexNumber::TComplexNumber():fReal(0),fImg(0),fAbs(0),fPhase(0) {}
-
-TComplexNumber::~TComplexNumber() {}
-
 TComplexNumber TComplexNumber::operator+(const TComplexNumber& x) {
 
     TComplexNumber cnReturn;

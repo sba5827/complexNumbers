@@ -5,7 +5,7 @@ TComplexNumber_Exception::TComplexNumber_Exception(const char* aString): fexcept
     //ctor
 }
 
-TComplexNumber_Exception::~TComplexNumber_Exception()
+TComplexNumber_Exception::~TComplexNumber_Exception()throw()
 {
 }
 

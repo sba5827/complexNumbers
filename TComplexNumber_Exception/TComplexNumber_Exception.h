@@ -7,7 +7,7 @@ class TComplexNumber_Exception: public std::exception
 {
     public:
         TComplexNumber_Exception( const char* aString);
-        virtual ~TComplexNumber_Exception();
+        virtual ~TComplexNumber_Exception() throw();
 
         virtual const char* what() const throw(){return fexceptionString;}
 

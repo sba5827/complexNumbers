@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1524521844 source:c:\users\steven\documents\cb\complexnumbers\tcomplexnumber\tcomplexnumber.cpp
+1524841945 source:c:\users\steven\documents\cb\complexnumbers\tcomplexnumber\tcomplexnumber.cpp
 	"TComplexNumber.h"
+	"TComplexNumber_Exception.h"
 	<cmath>
+	<iostream>
 
-1524518992 c:\users\steven\documents\cb\complexnumbers\tcomplexnumber\tcomplexnumber.h
+1524841730 c:\users\steven\documents\cb\complexnumbers\tcomplexnumber\tcomplexnumber.h
 
 1524841414 source:c:\users\steven b\documents\cb\complexnumbers\tcomplexnumber\tcomplexnumber.cpp
 	"TComplexNumber.h"
@@ -24,4 +26,10 @@
 
 1524841342 c:\users\steven b\documents\cb\complexnumbers\tcomplexnumber_exception\tcomplexnumber_exception.h
 	<exception>
+
+1524843327 c:\users\steven\documents\cb\complexnumbers\tcomplexnumber_exception\tcomplexnumber_exception.h
+	<exception>
+
+1524843342 source:c:\users\steven\documents\cb\complexnumbers\tcomplexnumber_exception\tcomplexnumber_exception.cpp
+	"TComplexNumber_Exception.h"
 
