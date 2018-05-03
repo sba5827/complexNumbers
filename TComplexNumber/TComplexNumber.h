@@ -1,6 +1,10 @@
 #ifndef TCOMPLEXNUMBER_H
 #define TCOMPLEXNUMBER_H
 
+#include<string>
+
+using namespace std;
+
 const double pi = 3.14159265359;
 
 
@@ -10,7 +14,7 @@ class TComplexNumber
 
         TComplexNumber();
         TComplexNumber(const TComplexNumber &aCN);
-        TComplexNumber(const char* aStream);
+        TComplexNumber(const string* aStream);
         TComplexNumber(const double aReal, const double aImg);
 
         virtual ~TComplexNumber();
