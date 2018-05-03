@@ -45,6 +45,8 @@
 		<Unit filename="TComplexNumber/TComplexNumber_Constructors_Destructors.cpp" />
 		<Unit filename="TComplexNumber_Exception/TComplexNumber_Exception.cpp" />
 		<Unit filename="TComplexNumber_Exception/TComplexNumber_Exception.h" />
+		<Unit filename="stringConverter/StringToNumber.cpp" />
+		<Unit filename="stringConverter/StringToNumber.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
